@@ -1,0 +1,32 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: system-ui;
+}
+
+input[type="submit"]{
+    width: 100%;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+input[type="submit"]:hover{
+    background-color: rgba(0,0,0,.6);
+    color: white;
+}
+
+a:link, a:visited, a:active{
+    background-color: white;
+    color: black;
+    padding: 5px;
+    margin: 0px 5px;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: rgba(0,0,0,.6);
+    color: white;
+    text-decoration: none;
+}
